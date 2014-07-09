@@ -1,0 +1,190 @@
+
+/*
+    DEFAULT BODY STYLES
+*/
+body {
+    background: #fdfdfd;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.625;
+    color: #4b4b4b;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 10px auto;
+}
+@media screen and (min-width: 768px) {
+    .wrapper {
+        width: 650px;
+        margin: 30px auto;
+    }
+}
+
+section.wrapper {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+/*
+    THE MAIN POST AREA
+*/
+.post {
+    font-size: 1.125em;
+    line-height: 1.44444em;
+    padding: 9em 0;
+}
+.post-border {
+    border-left: 1px solid grey;
+}
+.post ul {
+    list-style-position: outside;
+}
+blockquote {
+    opacity: .65;
+    border-left: 2px solid #ddd;
+    margin: 0;
+    padding-left: 2em;
+}
+@media screen and (max-width: 600px) {
+    .post {
+        margin-left: 0;
+    }
+    blockquote {
+        padding-left: 1em;
+    }
+}
+
+
+
+/*
+    COUPLE OF TYPOGRAPHY PIECES WITHIN POST
+*/
+
+h1 {
+    font: bold 2.722em/1em "Helvetica Neue", Arial, sans-serif;
+    margin: 0 0 .4725em;
+    color: #2a3744;
+    letter-spacing: -.04em;
+}
+h2 {
+    font: bold 2em/1em "Helvetica Neue", Arial, sans-serif;
+    margin: 0 0 .625em;
+    color: #2a3744;
+    letter-spacing: -.04em;
+}
+
+h2, h3, h4 {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 1.75em;
+    }
+}
+
+a {
+    color: #136fd2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #136fd2;
+    text-decoration: underline;
+}
+
+code {
+    border: solid 1px #e4e4e4;
+    padding: 4px 4px 1px;
+    background: #eef1f3;
+    font-size: 0.875em;
+    line-height: 1.85714em;
+    border-radius: 3px;
+    font-family: "Helvetica Neue", Monaco, monospace;
+}
+
+/*
+    NOW FOR THE NAVIGATION BAR
+*/
+
+nav {
+    background: #2a3744;
+    width: 100%;
+    padding: .5em 0;
+    z-index: 10;
+}
+
+
+/* LINKS AND BUTTONS THEREUPON.. */
+
+nav a {
+    color: #c0ccdb;
+    display: inline-block;
+    font-size: .8125em;
+    line-height: 1.2307em;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #c0ccdb;
+    text-decoration: underline;
+}
+
+nav .global-nav__header-tuts-logo-link img {
+	width: 70px;
+	position: relative;
+	top: 5px;
+	margin-right: 20px;
+}
+
+span.page-footer__tuts-brand-text {
+	color: #c0ccdb;
+}
+
+button {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.addthis_toolbox {
+	width: 100%;
+	padding: 1em 0 0 0;	
+}
+
+#change-hang, 
+#change-border {
+    display: inline-block;
+    padding: 1px 16px;
+    height: 36px;
+    line-height: 34px;
+    white-space: nowrap;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dee4e8), color-stop(100%, #dae1e5));
+    background: -webkit-linear-gradient(top, #dee4e8, #dae1e5);
+    background: -moz-linear-gradient(top, #dee4e8, #dae1e5);
+    background: -o-linear-gradient(top, #dee4e8, #dae1e5);
+    background: linear-gradient(top, #dee4e8,#dae1e5);
+    color: #4d4d4d;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 1px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.25);
+    width: auto;
+}
+#change-hang:hover, 
+#change-border:hover {
+    background: #c0cbd3;
+    color: #2a3744;
+}
+#change-border {
+    margin-right: 1.25em;
+}
+
+a {
+	padding: 0 20px;
+}
