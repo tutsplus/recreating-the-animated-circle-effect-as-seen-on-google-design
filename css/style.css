@@ -1,0 +1,43 @@
+.col {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 1.25%;
+  background-color: #444;
+  color: #fff;
+  padding: 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.col.orange {
+  background-color: #EF8130;
+}
+.col.blue {
+  background-color: #00ADE2;
+}
+.col.gray {
+  background-color: #444;
+}
+.col.green {
+  background-color: #76CE51;
+}
+.col-1-2 {
+  width: 47.5%;
+}
+.col-1-3 {
+  width: 30.8333%;
+}
+.col-1-4 {
+  width: 22.5%;
+}
+.col svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.col circle {
+  fill: rgba(255, 255, 255, 0.1);
+}
